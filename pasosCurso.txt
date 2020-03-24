@@ -12,3 +12,6 @@ In Atom install:
 	Platformio ide Terminal
 	V Bootstrap4
 	more..
+
+To convert .ts => .js
+	tsc name.ts
