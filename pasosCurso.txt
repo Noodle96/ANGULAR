@@ -1,0 +1,14 @@
+to nodejs => node -v
+to npm => npm -v
+to typescript => tsc -v
+to angular-cli => ng version
+ionic to
+
+In Atom install:
+	Angular 2 Type script Snippets
+	Atom Bootstrap3-4
+	Atom Typescript
+	File Icons
+	Platformio ide Terminal
+	V Bootstrap4
+	more..
