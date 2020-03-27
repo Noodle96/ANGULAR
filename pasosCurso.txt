@@ -17,3 +17,6 @@ To convert .ts => .js
 	tsc name.ts
 Para entrar modo observador, es decir cada cambio que se haga el el .ts , tambien
 se actualice el .js => tsc name.ts -w
+
+Cada vez que creemos mas files .ts en nuestro directorio raiz y estes entren en modo
+observador tmabien : tsc -init
