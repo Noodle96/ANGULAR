@@ -17,3 +17,15 @@ console.log(mensaje); //print hola, debido a que let funciona en un contexto dad
 
 const PI = 3.14;
 console.log(PI);
+
+
+let nombre:string  = "Pedro Pablo";
+let numeroTwo:number = 123;
+let booleano:boolean = true;
+let hoy = new Date();
+
+console.log(hoy);
+let cualquiera:any;
+cualquiera = nombre; console.log(cualquiera);
+cualquiera = numeroTwo; console.log(cualquiera);
+cualquiera = booleano; console.log(cualquiera);
