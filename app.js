@@ -27,3 +27,9 @@ cualquiera = numeroTwo;
 console.log(cualquiera);
 cualquiera = booleano;
 console.log(cualquiera);
+//template literales
+var nombree = "Jorge";
+var apellido = "Tito";
+var fechaNacimiento = 2000;
+var texto = "Welcome, " + nombree + " " + apellido + "\n" + fechaNacimiento;
+console.log(texto);

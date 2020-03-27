@@ -29,3 +29,12 @@ let cualquiera:any;
 cualquiera = nombre; console.log(cualquiera);
 cualquiera = numeroTwo; console.log(cualquiera);
 cualquiera = booleano; console.log(cualquiera);
+
+//template literales
+let nombree:string = "Jorge";
+let apellido:string = "Tito";
+let fechaNacimiento:number = 2000;
+
+let texto = `Welcome, ${nombree} ${apellido}
+${fechaNacimiento}`;
+console.log(texto);
