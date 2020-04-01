@@ -86,7 +86,7 @@ var princesa = {
         var _this = this;
         setTimeout(function () {
             console.log(_this.nombre + "say Lets go"); // esto imprimira Princesa Isabel say Lets go.
-        }, 1500);
+        }, 300); // 1000 = 1 sec
     }
 };
 princesa.talk(); // esto imprimira Princesa Isabel say Lets go.
