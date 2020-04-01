@@ -1,23 +1,23 @@
 //INTERFACES EN JS
 
-interface Carta{
+interface CartaM{
     name:string,
-    tipo:String,
+    tipo:string,
     vida:number
 }
 
             //  carta :{name,,tipo,vida}
-function saludoDe(carta:Carta){
+function saludoDe(carta:CartaM){
     console.log(carta.name + " Te esta saludando");
     console.log(carta);
 
 
 }
 
-let cartaPrincesa:Carta = {
+let cartaPrincesa2:CartaM = {
     name:"Princesa",
     tipo: "Legendaria",
     vida: 1350,
 }
 
-saludoDe(cartaPrincesa);
+saludoDe(cartaPrincesa2);
