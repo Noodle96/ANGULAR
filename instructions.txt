@@ -20,3 +20,6 @@ se actualice el .js => tsc name.ts -w
 
 Cada vez que creemos mas files .ts en nuestro directorio raiz y estes entren en modo
 observador tmabien : tsc -init
+
+to start proyect=> ng new nameapp
+	inside nameapp => ng serve -o to open  in browser
